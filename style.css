@@ -1,0 +1,952 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+#first-nav1{
+    margin-left: 20px;
+    color: white;
+    margin-top: 30px;
+}
+#first-nav1:hover{
+    color: #b3b3b3;
+}
+#logo{
+    padding: 6px 17px;
+    position: absolute;
+    margin-left: 200px;
+}
+#first-logo{
+    color: white;
+}
+#hotel-logo{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    color: #a0a0a0;
+}
+#nav-icon{
+    color: #a0a0a0;
+    font-size: 20px;
+    margin-top: 2px;
+}
+#nav-icon:hover{
+    color: white;
+}
+.demo-anchor:hover{
+    color: white;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    background: #333333;
+    padding: 25px;
+}
+#demo{
+    margin-right: 10px;
+}
+#nav nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#nav nav ul li{
+    display: inline;
+    font-size: 14px;
+    padding-right: 28px;
+}
+#nav-btn{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    text-align: center;
+    padding: .3rem 1rem;
+    color: #333333;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#nav-btn:hover{
+    cursor: pointer;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+#nav1{
+    display: none;
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.959);
+    margin-top: 0px;
+    width: 20%;
+    position: fixed;
+}
+#demo:hover #nav1{
+    display: flex;
+}
+.demo-list-anchor{
+    color: #b7b6b6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 2;
+    padding-left: 20px;
+    display: flex;
+    text-align: center;
+    position: fixed;
+}
+.list{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.list .demo-list{
+    float: left;
+    width: 200px;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.nav-line{
+    width: 107%;
+    margin-left: 0px;
+    color: #b7b6b6;
+}
+.demo-list:hover{
+    background-color: rgb(179, 173, 173);
+    width: 96.5%;
+}
+.demo-list-anchor:hover{
+    color: #6e6767;
+}
+#nav2{
+    display: none;
+    margin-left: 200px;
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.959);
+    margin-top: 0px;
+    width: 20%;
+    height: 84%;
+    position: fixed;
+}
+#demo2:hover #nav2{
+    display: flex;
+}
+.demo-list-anchor2{
+    color: #b7b6b6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 2;
+    padding-left: 20px;
+    display: flex;
+    text-align: center;
+    position: fixed;
+}
+.list{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.list .demo-list2{
+    float: left;
+    width: 200px;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.nav-line{
+    width: 107%;
+    margin-left: 0px;
+    color: #b7b6b6;
+}
+.demo-list2:hover{
+    background-color: rgb(179, 173, 173);
+    width: 96.5%;
+}
+.demo-list-anchor2:hover{
+    color: #6e6767;
+}
+#image-background{
+    background-image: url(main-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    margin-top: 0px;
+    transition: ease-in;
+}
+#sub-title{
+    font-family: 'Gilda Display', serif;
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 125px;
+}
+#hotel-governor{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+#img-background{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: -4px;
+    padding-bottom: 8px;
+}
+#img-heading{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gilda Display', serif;
+    margin-top: 80px;
+    margin-left: 100px;
+    color: #ffffff;
+}
+.brown{
+    color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-top: 150px;
+    margin-left: -294px;
+    color: #c19b76;
+}
+#para{
+    display: flex;
+    flex-direction: row;
+    margin-top: -591px;
+    padding-left: 770px;
+}
+.paragraph{
+    color: #878787;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin-top: 300px;
+    line-height: 27px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#second-para{
+    margin-top: -505px;
+    padding-left: 1030px;
+}
+#pra-btn{
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+    border-radius: 0px;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+    margin-left: -260px;
+    margin-top: 0px;
+}
+#pra-btn:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0d0d0d;
+    border-color: #0d0d0d;
+}
+#text-line{
+    background-color: #efefef;
+    height: 200vh;
+    margin-top: -6px;
+}
+#text1{
+    color: #333333;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+    padding: 50px 0 20px 0;
+}
+#text2{
+    color: #333333;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    font-size: 2rem;
+}
+#line-break{
+    margin-left: 650px;
+    margin-right: 650px;
+}
+#rooms{
+    display: flex;
+    flex-direction: row;
+}
+#small-room{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 60px;
+    transition: ease-in .1s;
+    display: inline-block;
+    overflow: hidden; 
+}
+#small-room-text{
+    font-family: 'Gilda Display', serif;
+    font-size: 1.5rem;
+    color:rgb(90, 87, 87);
+    margin-left: 30px;
+}
+#icon-small-room{
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    text-transform: uppercase;
+    color:rgb(20, 19, 19);
+    margin-left: 30px;
+    margin-top: -15px;
+    letter-spacing: 2px;
+}
+#small-room-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    color:rgb(20, 19, 19);
+    margin-left: 30px;
+}
+#small-room-btn{
+    background-color: #201f1f;
+    border-color: #333333;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    padding: .5rem 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: none;
+    outline: none;
+}
+#small-room-btn:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0d0d0d;
+    border-color: #0d0d0d;
+}
+#small-room-img{
+transition: all .2s ease;
+vertical-align: middle;
+}
+#small-room-img:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+}
+#family-room{
+    display: flex;
+    flex-direction: column;
+    background-image: url(family.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    transition: ease-in .1s;
+    display: inline-block;
+    overflow: hidden; 
+}
+#family-text{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+#family-btn{
+    background: #c19b76;
+    color: white;
+    margin-left: 200px;
+    margin-top: -55px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+#family-room:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+}
+#double-room{
+    display: flex;
+    flex-direction: column;
+    background-image: url(d.jpg);
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#double-room:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+}
+#luxury-room:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+}
+#app-room:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+}
+#double-text{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+#double-para{
+    background: #c19b76;
+    color: white;
+    margin-left: 200px;
+    margin-top: -55px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+#luxury-room{
+    display: flex;
+    flex-direction: column;
+    background-image: url(luxury1.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#luxury-text{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+#luxury-para{
+    background: #c19b76;
+    color: white;
+    margin-left: 200px;
+    margin-top: -55px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+#app-room{
+    display: flex;
+    flex-direction: column;
+    background-image: url(app.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#app-text{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+#app-para{
+    background: #c19b76;
+    color: white;
+    margin-left: 200px;
+    margin-top: -55px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+#background{
+    background-color: #efefef;
+    height: 910px;
+
+}
+#service-background{
+    background-image: url(service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:130vh;
+    margin-top: -150px;
+}
+#service-text{
+    font-family: 'Gilda Display', serif;
+    font-size: 3.5rem;
+    font-style: normal;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-top: 700px;
+}
+.service1{
+    width: 18%;
+    background-color: white;
+    height: 57vh;
+   margin-left: 100px;
+   margin-top: 60px;
+}
+.service-text{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-left: 30px;
+}
+li{
+    font-family: 'Gilda Display', serif;
+    font-size: 1rem;
+    color:rgb(51, 51, 51);
+}
+ul{
+    list-style-type: none;
+}
+.service-price{
+    font-family: 'Gilda Display', serif;
+    font-size: 1.9rem;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.service-day{
+    margin-top: .5rem;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    color: #ffffff;
+    margin-left: 30px;
+}
+#service-btn1{
+    padding: .5rem 2rem;
+    background-color: #c19b76;
+    border-color: #c19b76;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+#service-btn1:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #a17549;
+    border-color: #a17549;
+}
+hr{
+    margin-right: 20px;
+    margin-left: -3px;
+}
+#service-btn2{
+    padding: .5rem 2rem;
+    background-color: #c19b76;
+    border-color: #c19b76;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#service-btn2:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #a17549;
+    border-color: #a17549;
+}
+#service-btn3{
+    padding: .5rem 2rem;
+    background-color: #c19b76;
+    border-color: #c19b76;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#service-btn3:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #a17549;
+    border-color: #a17549;
+}
+#service-btn4{
+    padding: .5rem 2rem;
+    background-color: #c19b76;
+    border-color: #c19b76;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#service-btn4:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #a17549;
+    border-color: #a17549;
+}
+.service2{
+    width: 18%;
+    background-color: white;
+    height: 62vh;
+    margin-left:40px ;
+    margin-top: 60px;
+}
+.service3{
+    width: 18%;
+    background-color: white;
+    height: 70vh;
+    margin-left:40px ;
+   margin-top: 60px;
+}
+.service4{
+    width: 18%;
+    background-color: white;
+    height: 75vh;
+    margin-left:40px;
+    margin-top: 60px;
+}
+.service-detail{
+    background-color: #c19b76;
+    padding: 15px 0px;
+}
+#service-main{
+    display: flex;
+    flex-direction: row;
+}
+#about-hotel{
+    background-color: #efefef;
+    padding-bottom: 200px;
+}
+#about-hotel-text{
+    letter-spacing: 1px;
+    font-family: 'Gilda Display', serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: -20px;
+}
+#about-hotel-img{
+    display: flex;
+    flex-direction: row;
+}
+#lounge-img{
+    background-image: url(lounge.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+#lounge-img:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+}
+#restaurant-img{
+    background-image: url(res.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+#restaurant-img:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+}
+#wellness-img{
+    background-image: url(wellness.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+#wellness-img:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+}
+.about-text{
+    color: #ffffff;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 300px;
+}
+.about-text:hover{
+    color: #b3b3b3; 
+}
+.about-para{
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#review-background{
+    background-color: #efefef;
+    margin-top: -150px;
+}
+#review{
+    background-image: url(review.jpg);
+    width: 1345px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    margin-top: 50px;
+}
+#review-text{
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Gilda Display', serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 65px;
+}
+#jane-review{
+    background-color: #c19b76;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+}
+#about-jane-review{
+    display: flex;
+    flex-direction: row;
+}
+#jane-pic{
+    border-radius: 50%;
+}
+#jane-text{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+#name{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin-top: 100px;
+    margin-left: -640px;
+}
+#occupation{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    margin-left: -40px;
+}
+#Amanda-review{
+    background-color: #c19b76;
+    margin: 40px 200px;
+    padding: 30px;   
+}
+#about-amanda-review{
+    display: flex;
+    flex-direction: row;
+}
+#amanda-text{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+#amanda-name{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin-top: 150px;
+    margin-left: -100px;
+}
+#amanda-occupation{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 190px;
+    margin-left: -70px;
+
+}
+#amanda-pic{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+#find-background{
+    background-color: #efefef;
+    margin-top: -70px;
+
+}
+#find-hotel-text{
+    font-family: 'Gilda Display', serif;
+    font-size: 3.5rem;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding-top: 25px;
+}
+#footer-item{
+    background-color: #232323;
+    margin-top: -20px;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;  
+}
+.footer-container{
+    width: 50%;
+}
+#footer1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Gilda Display', serif;
+    font-size: 1.9rem;
+}
+#sub-footer1{
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    margin-left: 20px;
+    margin-top: -12px;
+}
+#sub-footer2{
+    font-family: 'Gilda Display', serif;
+    font-size: 1.9rem;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#footer2{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Gilda Display', serif;
+    font-size: 1.9rem;
+}
+#sub-footer2-1{
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    margin-left: 30px;
+    margin-top: -12px;
+}
+#icon-anchor{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.icon-btn{
+    color: #ffffff;
+    padding: 15px;
+}
+.icon-btn:hover{
+    color: #878787;
+}
+#footer3{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Gilda Display', serif;
+    font-size: 1.9rem;
+}
+#sub-footer3-1{
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    margin-top: -12px;
+    margin-left: 5px;
+}
+#email{
+    border: none;
+    width: 35%;
+    background: #000000;
+    color: #d8d7d7;
+    margin-top: 60px;
+    margin-left: 30px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+#footer3-btn{
+    padding: 20px 35px;
+    margin-left: -3px;
+    border: none;
+    outline: none;
+    background-color: #c19b76;
+    border-color: #c19b76;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+#footer3-btn:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #a17549;
+    border-color: #a17549;
+}
+#footer-item2{
+    background-color: #333333;
+    margin-top: -30px;
+    padding: 18px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+#footer-item2-anchor{
+    color: #ffffff;
+}
+#footer-item2-anchor:hover{
+    color: #b3b3b3
+}
